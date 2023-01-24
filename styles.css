@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: hsl(210, 60%, 98%);
+}
+
+main {
+    width: 40%;
+    margin: 50px auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 2%;
+}
+
+
+/* HEADER  */
+
+header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.num {
+    background-color: hsl(219, 85%, 26%);
+    padding: 0 20px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+button {
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    cursor: pointer;
+    color: hsl(219, 12%, 42%);
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+
+/* ARTICLE  */
+
+.noti {
+    display: flex;
+    background-color: hsl(210, 60%, 98%);
+    margin-bottom: 0.5rem;
+    color: hsl(219, 12%, 42%);
+    cursor: pointer;
+    position: relative;
+    padding: 1rem 0;
+}
+
+img {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin: 1rem 1rem 0;
+}
+
+.mess {
+    border: 1px solid hsl(219, 10%, 54%);
+    padding: 0.7rem;
+    margin: 1rem 1rem 1rem 0;
+    border-radius: 5px;
+}
+
+.mess:hover {
+    background-color: hsl(211, 68%, 94%);
+}
+
+.name {
+    font-weight: 900;
+    color: hsl(224, 21%, 14%);
+}
+
+.end {
+    font-weight: 900;
+}
+
+p span:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.time {
+    color: hsl(219, 14%, 63%);
+}
+
+.chess {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+}
+
+.click1 {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.info::after {
+    content: "";
+    display: inline-flex;
+    width: 7px;
+    height: 7px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 100%;
+    margin-left: 4px;
+}
+
+@media (max-width: 900px) {
+    main {
+        width: 375px;
+    }
+    .chess {
+        position: relative;
+    }
+}
